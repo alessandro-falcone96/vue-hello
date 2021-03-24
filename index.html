@@ -13,9 +13,12 @@
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Title -->
-    <title></title>
+    <title>Vue Hello</title>
   </head>
   <body>
-
+    <div id="container">
+      <h1>{{message}}</h1>
+      <img v-bind:src="image">
+    </div>
   </body>
 </html>
